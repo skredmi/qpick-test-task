@@ -1,0 +1,7 @@
+.info {
+  width: 7.4625rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem;
+}

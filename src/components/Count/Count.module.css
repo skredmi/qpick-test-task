@@ -1,0 +1,22 @@
+.cartControl {
+  width: 7.8125rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cartButton {
+  cursor: pointer;
+  transition: transform 0.3s linear;
+}
+
+.cartButton:hover {
+  transform: scale(1.1);
+}
+
+.cartCount {
+  font-weight: 600;
+  font-size: 1.0625rem;
+  line-height: 1.3125rem;
+  color: var(--black-color);
+}

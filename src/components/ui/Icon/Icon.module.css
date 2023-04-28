@@ -1,0 +1,19 @@
+.icon {
+  position: relative;
+  cursor: pointer;
+}
+
+.iconCount {
+  width: 1.0875rem;
+  height: 1.0875rem;
+  position: absolute;
+  top: -7.5px;
+  right: -10.5px;
+  background-color: var(--orange-color);
+  border-radius: 1.25rem;
+  color: var(--white-color);
+  font-weight: 500;
+  font-size: 0.9375rem;
+  line-height: 1.125rem;
+  text-align: center;
+}

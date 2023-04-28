@@ -1,0 +1,69 @@
+.card {
+  max-width: 21.875rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px 21px 26px 21px;
+  background: var(--white-color);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
+
+.image {
+  width: 13.75rem;
+  height: 14.8125rem;
+  align-self: center;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 1.0625rem;
+  line-height: 1.3125rem;
+}
+
+.title {
+  color: var(--color-card-title);
+}
+
+.price {
+  color: var(--orange-color);
+  position: relative;
+}
+
+.prevPrice {
+  color: var(--price-color);
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  text-decoration: line-through;
+  position: absolute;
+  top: 19px;
+  right: 8.5px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--subtitle-color);
+}
+
+.button {
+  height: 1.3125rem;
+  color: var(--black-color);
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.0625rem;
+  line-height: 1.3125rem;
+  cursor: pointer;
+}
